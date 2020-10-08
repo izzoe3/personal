@@ -551,6 +551,7 @@ pre code {
   .container {
     max-width: 540px;
   }
+
 }
 @media (min-width: 768px) {
   .container {
@@ -10133,6 +10134,33 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+@media (min-width: 768px) {
+  
+  .portfolio-image {
+  width: 45%;
+  margin: 5px;
+  }
+  .portfolio-desc {
+  width: 45%;
+  margin: 5px;
+  padding-left: 10px;
+  }  
+}
+
+@media (max-width: 767px){
+  .portfolio-image {
+  width: 100%;
+  margin: 5px;
+  }
+  .portfolio-desc {
+  width: 100%;
+  margin: 5px;
+  padding-left: 10px;
+  }  
+}
+
+
 
 /*Animated bar*/
 
